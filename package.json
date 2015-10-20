@@ -1,8 +1,11 @@
 {
   "name": "package-react",
   "description": "Helper to packages React components for distribution into other projects",
-  "version": "0.0.1",
-  "repository": "guylaor/packagereact",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guylaor/packagereact.git"
+  },
   "author": "Guy Laor <guylaor@yahoo.com> ",
   "files": [
     "index.js"
