@@ -1,0 +1,21 @@
+{
+  "name": "package-react",
+  "description": "Helper to packages React components for distribution into other projects",
+  "version": "0.0.1",
+  "repository": "guylaor/packagereact",
+  "author": "Guy Laor <guylaor@yahoo.com> ",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin, react"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "MIT"
+}
