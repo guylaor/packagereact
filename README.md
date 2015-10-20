@@ -4,12 +4,13 @@ A very simple gulp plugin to clean up some es6 code and then package it so it ca
 This works together with https://github.com/jonkemp/gulp-useref
 
 ## Install
-
+```
   npm install package-react
-
+```
 
 ## Usage
 
+```js
   var gulp = require('gulp');
   var packReact = require('package-react');
   var useref = require('gulp-useref');
@@ -25,3 +26,4 @@ This works together with https://github.com/jonkemp/gulp-useref
           .pipe(useref())
           .pipe(gulp.dest('dist'));
   });
+```
